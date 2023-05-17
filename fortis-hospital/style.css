@@ -1,0 +1,1053 @@
+* {
+    margin: 0;
+    /* margin: 0; */
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.2
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    color: #333;
+    transition: color .3s ease;
+}
+
+.heading1 {
+    font-size: 32px;
+    font-weight: 500;
+    color: #221e20
+}
+
+.heading2 {
+    font-size: 26px;
+    font-weight: 500;
+    color: #221e20;
+}
+
+.header_Top_Outer {
+    position: sticky;
+    /* top: -46px; */
+    /* z-index: 999; */
+    /* background-color: yellow; */
+}
+
+.header1-div {
+    display: flex;
+    border: none;
+    border-bottom: 1px solid #c7c7c7;
+    height: 26px;
+    vertical-align: middle;
+    padding: 7px 0;
+
+    background: #fff;
+    position: relative;
+
+
+    vertical-align: baseline;
+
+}
+
+.header-details-Top {
+    margin-left: 450px;
+}
+
+.header-details-Top ul li {
+    color: #313030;
+    font-size: 14px;
+    display: flex;
+    font-weight: 500;
+    float: left;
+    /* line-height: normal;
+    margin: 0 15px; */
+}
+
+.header-details-Top ul li a {
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    color: #333;
+}
+
+.header-details-Top ul li select {
+    border: none;
+    border-bottom: 1px solid #c7c7c7;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 30px;
+    /* background: url(/themes/custom/fortis/css/../images/arrow.svg) no-repeat center right/10px auto,url(/themes/custom/fortis/css/../images/location.svg) no-repeat center left/14px auto; */
+}
+
+.header-details-Top ul li i {
+    margin-left: 30px;
+}
+
+.locations-dropdown {
+    margin-left: 46px;
+
+}
+
+.header-details-Top .locations-dropdown #locations {
+    border: none;
+    border-bottom: 1px solid #c7c7c7;
+    background: 0 0;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #000;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url(https://www.fortishealthcare.com/themes/custom/fortis/images/arrow.svg) no-repeat center right/10px auto, url(https://www.fortishealthcare.com/themes/custom/fortis/images/location.svg) no-repeat center left/14px auto;
+    padding: 1px 20px 3px 22px !important;
+}
+
+.header-details-Top .language-menu #languages {
+    border: none;
+    border-bottom: 0.5px solid #c7c7c7;
+    background: 0 0;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #000;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url(https://www.fortishealthcare.com/themes/custom/fortis/images/arrow.svg) no-repeat center right/10px auto, url(https://www.fortishealthcare.com/themes/custom/fortis/images/globe.svg) no-repeat center left/14px auto;
+    padding: 1px 20px 3px 22px !important;
+}
+
+.header-details-Top .ambulance {
+    padding: 0px;
+    margin: -2px;
+    position: ab;
+}
+
+.header-details-Top .ambulance img {
+
+    width: 32px;
+    border-radius: 100%;
+    box-shadow: 0 0 10px #ff9595
+}
+
+.header-details-Top .site-search {
+    margin-left: 19px;
+    margin-right: 13px;
+    margin-bottom: 6px;
+    cursor: pointer
+}
+
+.header-details-Top .site-search img {
+    position: relative;
+    top: 2px;
+    width: 19px;
+    height: 19px
+}
+
+.globe-icone {
+    height: 18px;
+}
+
+.header-logo {
+    display: flex;
+    border: none;
+    border-bottom: 0.5px solid #c7c7c7;
+}
+
+.header-logo img {
+    width: 99px;
+    /* height: 52px; */
+    margin: 5px 5px 5px 200px;
+    vertical-align: middle;
+    text-align: center;
+
+}
+
+.header-details-Top ul li a:hover {
+    color: #ff9595;
+}
+
+.logo-head-nav {
+    margin-left: 200px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.logo-head-nav ul {
+    margin-left: 10px;
+    margin-top: 10px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.logo-head-nav ul li {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.logo-head-nav ul li a {
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #333;
+    padding-bottom: 15px;
+    /* border-bottom: 4px solid transparent;
+    vertical-align: middle;
+    text-align: center; */
+
+}
+
+.logo-head-nav ul li a:hover {
+    /* background: #f4d7d0; */
+    border-bottom: 4px solid #db7c65;
+
+
+}
+
+.header-appoinment {
+    text-align: center;
+    width: 100%;
+    height: 45px;
+    background: #fcf9f9;
+    padding: 1px 0 0;
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.header-appoinment img {
+    margin-right: 4px;
+    /* width: 30px */
+}
+
+
+.header-appoinment ul {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.header-appoinment ul li {
+    display: inline-block;
+    line-height: normal;
+    margin: 0 12px
+}
+
+.header-appoinment ul li a {
+    /* text-decoration: none; */
+    margin-left: 30px;
+    color: #333;
+    font-size: 14px;
+    /* display: flex;
+    align-items: center;
+    font-weight: 500;
+    color: #333;
+    padding: 8px 0; */
+
+}
+
+.header-appoinment a:hover {
+    color: #db7c65
+}
+
+.top-body-image {
+    background: url(images/New-Web-Banner-03.jpg);
+    background: center;
+    background-size: cover;
+}
+
+.book-appointment a {
+    color: #181515;
+    font-size: 14px;
+    font-weight: 600;
+    background: #f4d7d0;
+    border-radius: 54px;
+    padding: 1px 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 30px;
+    line-height: 1.8;
+    margin: 6px;
+}
+
+.top-body-image {
+    position: relative;
+    height: 330px;
+}
+
+.top-banner img {
+    width: 100%;
+    position: absolute;
+}
+
+.text-top-body h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #000;
+    padding: 15px 25px;
+    background: rgba(255, 255, 255, .5);
+    text-align: center;
+    max-width: 752px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 8px;
+    position: absolute;
+    top: 50px;
+    left: 429px;
+}
+
+.search-key {
+    position: absolute;
+    top: 235px;
+    left: 282px;
+    width: 924px;
+    height: 58px;
+    /* border:1px solid gray; */
+    border-radius: 20px;
+    ;
+    vertical-align: middle;
+    background-color: white;
+    /* text-align: center; */
+    border: none;
+
+}
+
+.main-search-input {
+    /* color: black; */
+    background-color: white;
+    outline-color: transparent;
+    width: 800px;
+    /* border-color: transparent; */
+    vertical-align: middle;
+    border: none;
+    color: #333;
+    margin: 20px 20px;
+}
+
+.search-icon {
+    position: absolute;
+    top: 251px;
+    left: 1159px;
+}
+
+.main-div-details-for-user {
+    position: relative;
+}
+
+.overview_booking {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 0 0;
+    width: 85%;
+    margin-left: 150px;
+    /* background-color: yellow; */
+}
+
+.overview_section {
+    width: 58%;
+    padding: 0 40px 0 0;
+    /* background-color: darkcyan; */
+}
+
+.overview_section .overview_box_outer {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -7px;
+    width: 100%;
+}
+
+.overview_box {
+    padding: 10px;
+    border-radius: 8px;
+    background: #fdfff4;
+    border: 2px solid #f1f5de;
+    width: calc(50% - 40px);
+    /* width: 350px; */
+    margin: 0 7px 14px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 112px;
+    transition: all .5s ease-in;
+    transform: translateY(0);
+
+}
+
+.overview_box_outer .overview_box:hover {
+    transform: translateY(-5px);
+    /* transform: translateX(-5px) */
+}
+
+.overview_section .overview_box_outer .hospital-box {
+    background: #edfaff;
+    border: 2px solid #d1f1ff
+}
+
+.overview_section .overview_box_outer .specialities-box {
+    background: #f8f7ff;
+    border: 2px solid #e9e6ff
+}
+
+.overview_section .overview_box_outer .docters-box {
+    background: #fff6f4;
+    border: 2px solid #f7e9e5
+}
+
+.overview_box .overview_text {
+    padding: 0 10px;
+    flex: 1
+}
+
+.overview_box .overview_icon {
+    width: auto;
+    min-width: 63px;
+    max-width: 70px;
+}
+
+.overview_box p {
+    color: #221e20;
+    font-size: 14px;
+    line-height: 1.3;
+}
+
+
+.overview_box h4 {
+    color: #221e20;
+    margin-bottom: 5px;
+    font-size: 22px;
+    font-weight: 700;
+
+}
+
+.overview_box p {
+    font-size: 14px;
+    line-height: 1.3;
+    color: #221e20
+}
+
+.booking-section {
+    width: 35%;
+    height: 300px;
+    /* background-color: yellow; */
+}
+
+.booking-section .booking-box_outer {
+    display: flex;
+    flex-wrap: wrap
+}
+
+.booking-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 180px;
+    padding: 25px 50px;
+    background: #fff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 16px #C7FFE664;
+    border: 2px solid #dcf5ea;
+    border-radius: 10px;
+    margin: 10px 10px;
+    position: relative;
+    transition: all .5s ease-in;
+    transform: translateY(0)
+}
+
+.booking-box_outer .booking-box:hover {
+    transform: translateY(-5px)
+}
+
+.booking-box h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #221e20;
+}
+
+.face-img {
+    margin-right: 30px;
+}
+
+.medical-report-banner {
+    width: 80%;
+    height: 220px;
+    margin: 70px 150px;
+
+}
+
+.med-rep-button h2 {
+    font-size: 26px;
+    font-weight: 500;
+    color: #221e20;
+}
+
+.medical-report-banner h2 {
+    font-size: 31px;
+}
+
+.medical-reports-text {
+    display: flex;
+    background-color: #4e9bc4;
+    width: 100%;
+    height: 134px;
+    margin-top: 10px;
+    justify-content: space-between;
+    border-radius: 10px;
+    ;
+}
+
+.med-rep-button {
+    margin: 30px;
+
+}
+
+.report-icon {
+    margin: 10px;
+}
+
+.med-rep-button h3 {
+    font-size: 24px;
+    line-height: 1.3;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 18px;
+}
+
+.med-rep-button button {
+    font-size: 15px;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    ;
+}
+
+.med-rep-button a {
+    text-decoration: none;
+
+}
+
+.feedback-block {
+    display: flex;
+    width: 80%;
+    height: 300px;
+    margin-left: 150px;
+    margin-bottom: 80px;
+}
+
+.stories-button {
+    width: 40%;
+    height: 300px;
+    padding: 0px;
+    margin-top: 34px;
+}
+
+
+.stories-button h3 {
+    font-size: 26px;
+    font-weight: 500;
+    color: #221e20;
+    margin: 40px 5px 5px 5px;
+    /* background-color: red; */
+    text-align: center;
+}
+
+.stories-button-div {
+    width: 100%;
+    text-align: center;
+}
+
+.button {
+    padding: 15px 40px;
+    background-color: #f4d7d0;
+    font-size: 16px;
+    color: #000;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    transition: all .5s ease-out;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.button.border {
+    background: #fff;
+    border: 1px solid #db7c65;
+    color: #db7c65;
+
+}
+
+.button:hover {
+    background: #db7c65;
+    color: #fff;
+}
+
+
+.user-image-box {
+    display: inline-block;
+    width: 550px;
+    /* background-color: red; */
+}
+
+.user-image-box .user-image {
+    width: 180px;
+    height: 180px;
+    position: relative;
+    background: url(https://www.fortishealthcare.com/themes/custom/fortis/images/patient-shap.png) no-repeat 0 0;
+    background-size: 100%;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 60px;
+
+}
+
+.user-image {
+    width: 168px;
+    height: 168px;
+}
+
+.feedback-view-outer {
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 20px;
+
+}
+
+.feedback-view {
+    display: flex;
+    width: 828px;
+    height: 250px;
+    margin: 20px;
+    /* background-color: green; */
+}
+
+.feedback-text-with-location {
+    display: block;
+    position: relative;
+    margin: 5px 50px;
+    /* width: 892px; */
+    /* background-color: green; */
+}
+
+.feedback-text p {
+    font: inherit;
+    margin-top: 50px;
+}
+
+.patient-hospital {
+    margin-top: 50px;
+}
+
+.feedback-view .feedback-text .patient-location {
+    margin-top: 30px;
+}
+
+.quotation-left i {
+    color: #c7c7c7;
+    font-size: 48px;
+    position: relative;
+    left: 5px;
+
+}
+
+.quotation-right i {
+    color: #c7c7c7;
+    font-size: 48px;
+    position: relative;
+    width: 100%;
+    margin-top: -55px;
+    background-color: transparent;
+    text-align: right;
+}
+
+a.button.border {
+    /* margin-top: 50px; */
+    margin: 50px;
+    width: 60px;
+}
+
+.next-arrow {
+    font-size: 50px;
+    text-align: center;
+    /* margin-left: 950px; */
+}
+
+.next-arrow a {
+    color: #db7c65;
+}
+
+.qr-code {
+    display: flex;
+    background-color: #4e9bc4;
+    width: 80%;
+    height: 134px;
+    margin-top: 20px;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-left: 150px;
+    max-width: 1240;
+}
+
+.qr-code img {
+    height: 94px;
+    margin: 21px;
+}
+
+.qr-code p {
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+    flex: 1;
+    max-width: 600px;
+    margin: 40px 20px 20px 20px;
+}
+
+.qr-code a img:hover {
+    transform: translateY(-10px);
+}
+
+.blogs-outer-div {
+    display: flex;
+}
+
+.blogs-section {
+    margin-top: 60px;
+    height: 350px;
+    display: block;
+    width: 80%;
+    margin-left: 150px;
+    margin-bottom: 80px;
+}
+
+.blog-heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-heading h3 {
+    font-size: 26px;
+    font-weight: 500;
+    color: #221e20;
+}
+
+.view-all-button {
+    white-space: nowrap;
+    color: #db7c65;
+    border-bottom: 1px solid #db7c65;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* 17-05-2023 */
+.blog-container-outer {
+    width: 316px;
+    margin: 0px;
+
+}
+
+.blog-container {
+    height: 280px;
+    border-radius: 20px;
+    margin: 10px;
+    background: #fbfbfd;
+    cursor: pointer;
+    box-shadow: 0px 3px 20px #81818133;
+    transition: all .5s ease-in;
+    transform: translateY(0)
+}
+
+.blog-container:hover {
+    transform: translateY(-5px)
+}
+
+.blog-image {
+    position: relative
+}
+
+.blog-image img {
+    border-radius: 6px 6px 0 0;
+    width: 100%
+}
+
+.blog-text {
+    padding: 25px 15px 15px
+}
+
+.blog-text h4 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    margin: 0
+}
+
+.author-details {
+    display: flex;
+    align-items: center;
+    margin-top: 8px
+}
+
+.author-details span {
+    display: inline-flex;
+    color: #696969;
+    font-size: 14px;
+}
+
+.author-details span:last-child {
+    margin-left: 5px;
+    padding-left: 5px;
+    border-left: 1px solid #a5a5a6;
+}
+
+.blog-strip {
+    background: #8f74a2;
+    padding: 6px 10px;
+    position: absolute;
+    bottom: -15px;
+    left: -7px;
+    min-width: 130px;
+    max-width: 90%;
+    text-align: center;
+    height: 20px;
+    white-space: nowrap
+}
+
+.blog-link {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.section-before-footer {
+    display: flex;
+    width: 80%;
+    /* background: red; */
+    margin-left: 150px;
+    height: 400px;
+
+}
+
+.free-to-ask {
+    margin: 10px;
+    width: 396px;
+    height: 350px;
+
+    /* background-color: #8f74a2; */
+}
+
+.ask-us-text h2 {
+    font-size: 26px;
+    font-weight: 500;
+    color: #221e20;
+    margin-bottom: 10px;
+
+}
+
+.t-img {
+    width: auto;
+    height: auto;
+    margin-top: 15px;
+    border: 1px solid #d3d4db;
+    border-radius: 6px;
+}
+
+.t-img img {
+    border-radius: 6px;
+    margin-top: 0px;
+}
+
+.ask-question-div {
+    height: 50px;
+    width: 300px;
+    /* background-color: black; */
+    margin: 40px;
+    border-radius: 10px;
+    border: 1px solid #d3d4db;
+}
+
+.ask-question-div input {
+    margin: 15px;
+    width: 400px;
+    border: none;
+    background-color: transparent;
+    outline-color: transparent;
+    vertical-align: middle;
+    color: #333;
+
+}
+
+.list-text {
+    /* background-color: #000; */
+    width: 68%;
+}
+
+.list-text ul li {
+    border: .5px solid rgb(9, 9, 9);
+    width: 70%;
+    border-radius: 8px;
+    height: 50px;
+    margin: 15px;
+    text-decoration: none;
+}
+
+.list-text ul {
+    list-style: none;
+    margin-left: 79px;
+}
+
+.menu-sub-list {
+    display: none;
+}
+
+.menu-sub-list {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
+.list-text ul li a {
+    position: relative;
+    top: 5px;
+    margin-left: 15px;
+    font-size: 12px;
+    color: #000;
+    font-weight: 700;
+    padding: 14px 15px;
+    display: block;
+}
+
+.list-text ul li a:hover {
+    color: #db7c65;
+}
+
+/* 
+.section-before-footer{
+   
+} */
+
+
+.footer-content {
+    width: 80%;
+    height: 100%;
+    /* background-color: #000; */
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    ;
+}
+
+.fortis-adress {
+    width: 30%;
+    height: 100%;
+    /* background-color: #c7c7c7; */
+
+}
+
+.fortis-adress img {
+    max-width: 155px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.fortis-adress p {
+    line-height: 1.6;
+    font-size: 14px;
+    font-weight: 500;
+    color: #221e20;
+    opacity: .8;
+    margin-top: 31px;
+}
+
+.contact a {
+    /* display: inline-block;
+    margin-bottom: 9px;
+    margin-right: 4px;
+    padding-right: 4px;
+    border-right: 1px solid #221e20; */
+    line-height: 1.6;
+    font-size: 14px;
+    font-weight: 500;
+    color: #221e20;
+    opacity: .8;
+    margin-top: 31px;
+}
+
+.all-rights-text p {
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #221e20;
+    opacity: .8;
+    margin-top: 31px;
+}
+
+.social-icons {
+    height: 80px;
+    margin-top: 20px;
+
+    text-align: center;
+    display: flex;
+}
+
+.social-icons a {
+    display: flex;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    box-shadow: 3px 7px 8px #dedddd;
+    margin-right: 14px;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s ease-in;
+    transform: translateY(0);
+}
+
+.social-icons img {
+    height: 32px;
+    max-width: 100%;
+    vertical-align: middle;
+    /* margin-top:20px; */
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.social-connect h5 {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.footer {
+
+    width: 100%;
+    height: 200px;
+    border-top: 2px;
+    /* background: #4e9bc4; */
+
+    margin-top: 50px;
+    padding: 35px 0;
+    box-shadow: 0px -1px 26px #00000029;
+
+}
